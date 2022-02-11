@@ -1,10 +1,9 @@
 package com.jogos.snake;
 
-import javax.swing.JFrame;
-
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 
+import javax.swing.JFrame;
 
 public class Game implements KeyListener{
 
@@ -31,7 +30,7 @@ public class Game implements KeyListener{
 		window.setSize(width * dimension + 2, height * dimension + dimension + 4);
 		window.setVisible(true);
 		window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);	
-		//window.setResizable(false);
+		window.setResizable(false);
 	}
 	
 	public void start() {
@@ -79,6 +78,8 @@ public class Game implements KeyListener{
 		return false;
 	}
 	
+	
+	
 
 	
 	// NECESSÁRIO PARA O KEYLISTENER FUNCIONAR
@@ -91,20 +92,20 @@ public class Game implements KeyListener{
 		
 		int keyCode = e.getKeyCode();
 		
-		if(graphics.state != "RUNNING") {
+		if(graphics.state == "RUNNING") {
 			if(keyCode == KeyEvent.VK_W && player.getMove() != "DOWN") {
 				player.up();
 			}
-			else if(keyCode == KeyEvent.VK_S && player.getMove() != "UP") {
+			
+			if(keyCode == KeyEvent.VK_S && player.getMove() != "UP") {
 				player.down();
 			}
-			else if(keyCode == KeyEvent.VK_A && player.getMove() != "RIGHT") {
+			
+			if(keyCode == KeyEvent.VK_A && player.getMove() != "RIGHT") {
 				player.left();
 			}
-			else if(keyCode == KeyEvent.VK_D && player.getMove() != "LEFT") {
-				player.left();
-			}
-			else {
+			
+			if(keyCode == KeyEvent.VK_D && player.getMove() != "LEFT") {
 				player.right();
 			}
 		}	

@@ -11,7 +11,6 @@ public class Food {
 		this.random_spawn(player);
 	}
 	
-	//comida randomica
 	public void random_spawn(Snake player) {		
 		boolean onSnake = true;
 		while(onSnake) {
@@ -26,7 +25,6 @@ public class Food {
 				}
 			}			
 		}
-		
 	}
 
 	

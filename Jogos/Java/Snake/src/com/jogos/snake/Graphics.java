@@ -2,6 +2,8 @@ package com.jogos.snake;
 
 import java.awt.Rectangle;
 import java.awt.Color;
+import java.awt.Font;
+import java.awt.FontMetrics;
 import java.awt.Graphics2D;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -11,7 +13,6 @@ import javax.swing.Timer;
 
 //ACTIONLISTENER - serve para animações
 public class Graphics extends JPanel implements ActionListener{
-	private static final long serialVersionUID = 1L;
 	
 	private Timer t = new Timer(100, this);
 	public String state;
@@ -19,6 +20,7 @@ public class Graphics extends JPanel implements ActionListener{
 	private Snake s;
 	private Food f;
 	private Game game;
+	
 	
 	public Graphics(Game g) {
 		t.start();
@@ -47,6 +49,7 @@ public class Graphics extends JPanel implements ActionListener{
 			g2d.drawString("Press Any Key", Game.width/2 * Game.dimension - 40, Game.height / 2 * Game.dimension - 20);
 		}
 		else if (state == "RUNNING") {
+			
 			g2d.setColor(Color.red);
 			g2d.fillRect(f.getX() * Game.dimension, f.getY() * Game.dimension, Game.dimension, Game.dimension);
 		
@@ -57,10 +60,11 @@ public class Graphics extends JPanel implements ActionListener{
 		}
 		else {
 			g2d.setColor(Color.white);
-			g2d.drawString("GAME OVER" +"\nYour Score: " + (s.getBody().size() -3), Game.width/2 * Game.dimension - 40, Game.height / 2 * Game.dimension - 20);
+			g2d.setFont(new Font("Consolas", Font.BOLD, 16));
+			g2d.drawString("GAME OVER", Game.width/2 * Game.dimension - 40, Game.height / 2 * Game.dimension - 35);
+			g2d.drawString("Your Score: " + (s.getBody().size() -3), Game.width/2 * Game.dimension - 55, Game.height / 2 * Game.dimension - 20);
 		}	
 	}
-	
 	
 	
 	@Override
