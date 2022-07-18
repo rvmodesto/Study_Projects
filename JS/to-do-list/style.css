@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+
+}
+
+.form{
+    position: absolute;
+    top: 30%;
+    box-shadow: 7px 7px 38px rgba(255, 255, 255, 0.3);
+    width: 400px;
+    background-color: rgb(97, 93, 222);
+    border-radius: 10px;
+
+}
+
+.input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 10px 10px 0px 0px ;
+    border: none;
+    font-size: 20px;
+    font-family: cursive;
+    background-color: rgb(255, 255, 255);
+}
+
+input::placeholder{
+    color: lightgrey;
+}
+
+.list{
+    padding: 0;
+    margin: 0;
+}
+
+.list li{
+    list-style-type: none;
+    padding: 20px;
+    font-family: cursive;
+    border-top: dotted;
+    border-color: darkgray;
+    position: relative;
+}
+
+.list li .fa-trash{
+    color: red;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+
+}
+
+
+.list li .fa-check-square{
+    color: rgb(102, 255, 19);
+    position: absolute;
+    right: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+
+}
+
+.list li.checked{
+    color: lightgray;
+    text-decoration: line-through;
+}
+
+.list li.checked .fa-check-square{
+    color: darkgrey;
+}

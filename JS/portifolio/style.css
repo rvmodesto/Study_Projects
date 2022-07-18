@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+h2{
+    text-emphasis-color: aliceblue;
+}
+
+.container-menu{
+    position: relative;
+    background-color: rgb(224, 88, 15);
+}
+
+.container-frase-de-efeito{
+    position: relative;
+    background-color: rgb(15, 224, 224);
+}
+
+.container-projetos-fullstack{
+    background-color: rgb(57, 245, 76);
+    position: relative;
+}
+
+.container-proj-frontend{
+    background-color: rgb(201, 57, 245);
+    position: relative;
+}
+
+.container-proj-backend{
+    background-color: rgb(207, 245, 57);
+    position: relative;
+}
+
+.container-sobre-mim{
+    background-color: rgb(245, 57, 73);
+    position: relative;
+}

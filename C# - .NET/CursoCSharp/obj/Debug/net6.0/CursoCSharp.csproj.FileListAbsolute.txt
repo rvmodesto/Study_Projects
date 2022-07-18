@@ -1,0 +1,15 @@
+C:\Users\rmodesto\OneDrive - Capgemini\Desktop\Study_Projects\C# - .NET\CursoCSharp\bin\Debug\net6.0\CursoCSharp.exe
+C:\Users\rmodesto\OneDrive - Capgemini\Desktop\Study_Projects\C# - .NET\CursoCSharp\bin\Debug\net6.0\CursoCSharp.deps.json
+C:\Users\rmodesto\OneDrive - Capgemini\Desktop\Study_Projects\C# - .NET\CursoCSharp\bin\Debug\net6.0\CursoCSharp.runtimeconfig.json
+C:\Users\rmodesto\OneDrive - Capgemini\Desktop\Study_Projects\C# - .NET\CursoCSharp\bin\Debug\net6.0\CursoCSharp.dll
+C:\Users\rmodesto\OneDrive - Capgemini\Desktop\Study_Projects\C# - .NET\CursoCSharp\bin\Debug\net6.0\CursoCSharp.pdb
+C:\Users\rmodesto\OneDrive - Capgemini\Desktop\Study_Projects\C# - .NET\CursoCSharp\obj\Debug\net6.0\CursoCSharp.csproj.AssemblyReference.cache
+C:\Users\rmodesto\OneDrive - Capgemini\Desktop\Study_Projects\C# - .NET\CursoCSharp\obj\Debug\net6.0\CursoCSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rmodesto\OneDrive - Capgemini\Desktop\Study_Projects\C# - .NET\CursoCSharp\obj\Debug\net6.0\CursoCSharp.AssemblyInfoInputs.cache
+C:\Users\rmodesto\OneDrive - Capgemini\Desktop\Study_Projects\C# - .NET\CursoCSharp\obj\Debug\net6.0\CursoCSharp.AssemblyInfo.cs
+C:\Users\rmodesto\OneDrive - Capgemini\Desktop\Study_Projects\C# - .NET\CursoCSharp\obj\Debug\net6.0\CursoCSharp.csproj.CoreCompileInputs.cache
+C:\Users\rmodesto\OneDrive - Capgemini\Desktop\Study_Projects\C# - .NET\CursoCSharp\obj\Debug\net6.0\CursoCSharp.dll
+C:\Users\rmodesto\OneDrive - Capgemini\Desktop\Study_Projects\C# - .NET\CursoCSharp\obj\Debug\net6.0\refint\CursoCSharp.dll
+C:\Users\rmodesto\OneDrive - Capgemini\Desktop\Study_Projects\C# - .NET\CursoCSharp\obj\Debug\net6.0\CursoCSharp.pdb
+C:\Users\rmodesto\OneDrive - Capgemini\Desktop\Study_Projects\C# - .NET\CursoCSharp\obj\Debug\net6.0\CursoCSharp.genruntimeconfig.cache
+C:\Users\rmodesto\OneDrive - Capgemini\Desktop\Study_Projects\C# - .NET\CursoCSharp\obj\Debug\net6.0\ref\CursoCSharp.dll
